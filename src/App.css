@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 500px;
+  height: 800px;
+  position:relative;
+  background-image: url(./assets/weather-app.jpg);
+  background-size: cover;
+  color:#FFF;
+  text-align: center;
+  font-family: 'montserrait', sans-serif;
+}
+.search-bar{
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  text-transform: uppercase;
+  text-align: center;
+  color:#ffff;
+  padding: 15px;
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -1px;
+  font-size: 20px;
+  background-color: rgba(250, 246, 246, 0.3);
+}
+.weather-data{
+  margin-top: 10%;
+}
+.location {
+  color:#fff;
+  font-size: 40px;
+  font-weight:550;
+  text-shadow: 4px 4px rgba(248, 222, 222, 0.3);
+}
+.date{
+  font-size: 20px;
+  margin-top: 5%;
+}
+.temperature{
+  margin-top: 5%;
+  position: relative;
+  margin: 30px auto;
+  padding: 15px 25px;
+  font-size: 100px;
+  border-radius: 12px;
+  background-color: rgba(248, 222, 222, 0.5);
+  display: inline-block;
+}
+.weather{
+  margin-top: 5%;
+  font-size: 50px;
+  font-weight: 600;
+}
